@@ -1,0 +1,6 @@
+# tools/config.  Generated from config.in by configure.
+# Shell variable definitions for make_bootlib and convert_libraries
+
+: ${cpp='gcc -E -traditional-cpp'}
+: ${SORT=/usr/bin/sort}
+: ${FIND=/usr/bin/find}

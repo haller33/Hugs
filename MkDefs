@@ -1,0 +1,27 @@
+##########################################################################
+# MkDefs.  Generated from MkDefs.in by configure.
+# Makefile definitions also used by the libraries
+
+# These variables determine where various parts of the Hugs system are
+# installed.  (They are ignored in Windows or DOS.)
+# Binaries are installed in $(bindir); libraries go in $(hugsdir)/libraries
+prefix		= /usr/local
+exec_prefix	= ${prefix}
+bindir		= ${exec_prefix}/bin
+libdir		= ${exec_prefix}/lib
+datarootdir	= ${prefix}/share
+datadir		= ${datarootdir}
+mandir          = ${datarootdir}/man
+hugsdir		= ${libdir}/hugs
+
+RM		= /usr/bin/rm -f
+CP		= /usr/bin/cp
+
+HOST		= armv7l-unknown-linux
+HOST_OS		= linux
+HOST_ARCH	= armv7l
+
+DLL		= .so
+BAT		= 
+# end of MkDefs.  Generated from MkDefs.in by configure.
+##########################################################################
